@@ -1,0 +1,79 @@
+.modal-container {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.custom-modal {
+	width: 800px;
+	max-width: 100%;
+	background-color: white;
+	padding: 20px 30px;
+}
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.modal-cls-container {
+	display: flex;
+	align-items: center;
+}
+.modal-timeLeft {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.modal-cls-container button {
+	margin-left: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: none;
+	border: 1px solid black;
+	background: none;
+	cursor: pointer;
+}
+.modal-vid-wrapper {
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
+	margin-bottom: 40px;
+}
+.modal-vid-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.modal-reward-btn-container {
+	text-align: center;
+}
+.modal-reward-btn {
+	/* display: flex; */
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	background-color: #6366f1;
+	color: #ffffff;
+	border-radius: 0.25rem;
+	border-width: 0;
+	cursor: pointer;
+}
+.modal-reward-btn:hover {
+	background-color: #4f46e5;
+}
+
+.hidden {
+	display: none;
+}
